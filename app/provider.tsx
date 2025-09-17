@@ -2,7 +2,7 @@ import React from 'react'
 import Header from './_components/Header'
 
 
-function provider({children,
+function Provider({children,
 }: Readonly<{
   children: React.ReactNode;
 }>)  {
@@ -15,4 +15,4 @@ function provider({children,
   )
 }
 
-export default provider
+export default Provider
